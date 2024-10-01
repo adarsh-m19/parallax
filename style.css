@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background: #f2f2f2;
+}
+h1{
+    font-size: 120px;
+   align-items: center;
+   margin-left: 30%;
+   color: rgba(255,255,255, .4);
+}
+.parallax-1{
+    background: url('https://tse4.mm.bing.net/th?id=OIP.DE6mJ1tG5d2dhT602koQ5QHaEq&pid=Api&P=0&h=220') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+}
+.parallax-2{
+    background: url('https://tse2.mm.bing.net/th?id=OIP.0M-WxHI7MMPUeQkVPVrrSgHaE6&pid=Api&P=0&h=220') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+}
+.parallax-3{
+    background: url('https://tse2.mm.bing.net/th?id=OIP.3xXP3oDvuFBx1bFjcJDRrAHaEh&pid=Api&P=0&h=220') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+}
+.parallax-4{
+    background: url('https://tse4.mm.bing.net/th?id=OIP.KRNPYuzRqSF_0QFIvrAcugHaEK&pid=Api&P=0&h=220') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+}
+
+.parallax-inner{
+    padding: 10% 0;
+
+}
+h2{
+    font-size: 32px;
+    color: #555;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 20px 0 10px;
+}
+p{
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 20px 0 10px;
+}
+p:nth-of-type(2),
+p:nth-of-type(3){
+    margin: 40px 50px;
+}
+@media (max-width:480px) {
+    body,html{
+       
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    h1{
+        font-size: 50px;
+       align-items: center;
+       margin-left: 10%;
+       color: rgba(255,255,255, .4);
+    }
+    .parallax-1{
+        background: url('https://tse4.mm.bing.net/th?id=OIP.DE6mJ1tG5d2dhT602koQ5QHaEq&pid=Api&P=0&h=220') no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment:fixed ;
+        
+    }
+    .parallax-2{
+        background: url('https://tse2.mm.bing.net/th?id=OIP.0M-WxHI7MMPUeQkVPVrrSgHaE6&pid=Api&P=0&h=220') no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment:fixed ;
+        
+    }
+    .parallax-3{
+        background: url('https://tse2.mm.bing.net/th?id=OIP.3xXP3oDvuFBx1bFjcJDRrAHaEh&pid=Api&P=0&h=220') no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment:fixed ;
+    }
+    .parallax-4{
+        background: url('https://tse4.mm.bing.net/th?id=OIP.KRNPYuzRqSF_0QFIvrAcugHaEK&pid=Api&P=0&h=220') no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment:fixed ;
+    }
+    .parallax-inner{
+        padding: 10% 0;
+    
+    }
+    h2{
+        font-size: 32px;
+        color: #555;
+        text-align: center;
+        font-weight: 300;
+        letter-spacing: 2px;
+        margin: 20px 0 10px;
+    }
+    p{
+        font-size: 16px;
+        color: #555;
+        text-align: center;
+        font-weight: 300;
+        letter-spacing: 2px;
+        margin: 20px 0 10px;
+    }
+}
